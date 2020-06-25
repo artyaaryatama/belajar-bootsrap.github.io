@@ -1,8 +1,12 @@
+/* style navbar */
 nav a  {
     font-size: larger;
+    font-weight: 400;
 }
+
+/* style jumbotron */
 .jumbotron {
-    background-image: url(images/1d.jpg);
+    background-image: url(images/slider1.jpg);
     height: 750px;
     text-align: center;
     background-size: cover;
@@ -34,4 +38,35 @@ nav a  {
     padding-right: 25px;
     padding-left: 25px;
     margin-top: 40px;
+}
+
+/* sty;e carrousel */
+.carousel-item {
+    height: 670px;
+    margin-top: -35px;
+}
+.carousel-item .welcome {
+    margin-top: -385px;
+}
+.carousel-item  p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+}
+.carousel-item  .lead {
+    padding-top: 35px;
+}
+.carousel-item  hr {
+    border-color: rgb(225, 238, 48);
+    width: 100px;
+    border-width: 3px;
+}
+.carousel-item .btn {
+    background-color: rgb(225, 238, 48);
+    border: none;
+    border-radius: 25px;
+    color: black;
+    padding-right: 25px;
+    padding-left: 25px;
+
 }
