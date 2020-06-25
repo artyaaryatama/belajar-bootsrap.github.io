@@ -1,4 +1,7 @@
 /* style navbar */
+nav {
+    background-color: black;
+}
 nav a  {
     font-size: larger;
     font-weight: 400;
