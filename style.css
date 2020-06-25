@@ -69,6 +69,7 @@ nav a  {
     padding-right: 25px;
     padding-left: 25px;
 }
+/* style untuk font-awesome pada navbar */
 .fa-youtube {
     font-size: 32px;
     color: #ff1a1a;
@@ -82,6 +83,10 @@ nav a  {
     color: #3385ff;
 }
 .fa-search {
-    font-size: 30px;
-    color: ;
+    font-size: 25px;
+}
+
+/* style untuk grid system */
+.foto-oned img {
+    height: 30em;
 }
