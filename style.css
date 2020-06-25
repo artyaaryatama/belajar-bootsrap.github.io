@@ -53,7 +53,7 @@ nav a  {
     font-weight: 300;
     color: #fff;
 }
-.carousel-item  .lead {
+.carousel-item  .name {
     padding-top: 35px;
 }
 .carousel-item  hr {
@@ -68,5 +68,20 @@ nav a  {
     color: black;
     padding-right: 25px;
     padding-left: 25px;
-
+}
+.fa-youtube {
+    font-size: 32px;
+    color: #ff1a1a;
+}
+.fa-facebook {
+    font-size: 30px;
+    color: #1a1aff;
+}
+.fa-twitter {
+    font-size: 30px;
+    color: #3385ff;
+}
+.fa-search {
+    font-size: 30px;
+    color: ;
 }
