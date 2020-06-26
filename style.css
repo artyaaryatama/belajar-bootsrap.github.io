@@ -90,3 +90,27 @@ nav a  {
 .foto-oned img {
     height: 30em;
 }
+
+/* style untuk form login */
+#form-login {
+    background-image: linear-gradient(135deg,rgb(235, 233, 217) 80%, rgb(214, 184, 187) 100%);
+    height: 100vh;
+}
+.container-login {
+    width: 30%;
+    margin-top: 9%;
+    padding: 5%;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.1);
+    background-image: linear-gradient(135deg, rgb(214, 184, 187)  100%,rgb(235, 233, 217) 80%);
+}
+.container-login .btn {
+    width: 50%;
+    text-align: center;
+    background-color: rgb(83, 67, 67);
+    color: #fff;
+}
+.container-login hr {
+    color: #fff;
+    width: 40%;
+    border-width: 3px;
+}
