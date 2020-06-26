@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
 
+    <script>
+      $(function (){
+        $('[data-toggle="tooltip"] ').tooltip()
+      })
+    </script>
 </head>
 <body>
     <!-- navbar -->
@@ -515,6 +520,14 @@
     </div>
 
 
+    <!-- tooltip pada button -->
+    <div class="container mt-4 ml-5">
+      <button type="submit" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Send us email"><li class="fas fa-envelope"></li> SEND</button>
+    </div>
+
+
+
+
     <!-- pagination -->
     <div class="container mt-5">
       <ul class="pagination pagination-lg justify-content-centers">
@@ -524,7 +537,7 @@
         <li class="page-item"> <a href="#" class="page-link" aria-label="next"><span aria-hidden="true">&raquo;</span></a></li>
       </ul>
     </div>
-    
+
 
     <!-- shadow -->
     <div class="container mt-5">
