@@ -114,3 +114,8 @@ nav a  {
     width: 40%;
     border-width: 3px;
 }
+
+/* style card member */
+.card-member {
+    margin-top: 5vh;
+}
