@@ -119,3 +119,25 @@ nav a  {
 .card-member {
     margin-top: 5vh;
 }
+
+
+
+
+/* style untuk page template-toko */
+#template-toko .card p {
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+#template-toko .card hr {
+    margin-top: -5px;
+}
+#template-toko .row .card:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    transform: scale(1.02);
+}
+#tempalte-toko .btn {
+    width: 50%;
+}
+#template-toko .carousel .caption-slider h5 {
+    margin-top: -10px;
+}
