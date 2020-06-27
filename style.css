@@ -135,29 +135,25 @@ nav a  {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
     transform: scale(1.02);
 }
-#tempalte-toko .btn {
-    width: 50%;
-}
 #template-toko .carousel .caption-slider h5 {
     margin-top: -10px;
 }
 /* style yg embed whatsapp */
-#template-toko .act-btn{
-    background:black;
-    display: block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    /* color: white;
-    font-size: 30px;
-    font-weight: bold; */
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    text-decoration: none;
-    transition: ease all 0.3s;
+#template-toko .btn-embed {
+    /* background-color: #0000; */
     position: fixed;
     right: 30px;
     bottom:30px;
+    /* width: 50px;
+    height: 50px; */
+    border-radius: 50%;
+    /* transition: ease all 0.25s; */
 }
-#template-toko .act-btn:hover{background: blue}
+#template-toko .btn-embed .fa-wa {
+    /* margin-left: 0px;
+    margin-top: -3px; */
+    font-size: 30px;
+}
+/* #template-toko .btn-embed:hover {
+    background-color: #00b300;
+} */
